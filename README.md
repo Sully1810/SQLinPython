@@ -1,38 +1,38 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+I want to learn how to use SQL databases but work with them using Python code. 
 
-{Provide a description of the software that you wrote and how it integrates with a SQL Relational Database. Describe how to use your program.}
+I created an inventory database to track items that a credit union owns. Right now, they are only tracking the computers. Specifically, the information they need is to assign a number to the item, have the name, and location of that item. 
 
-{Describe your purpose for writing this software.}
+I wanted to write this software to try and see if I could find a way to better track the credit union inventory. 
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of how created the Relational Database.}
+Below is a software demo video of my code and what I have learned.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Using Python with SQL Databases Video](https://youtu.be/W9Pyeur7CWU)
 
 # Relational Database
 
-{Describe the relational database you are using.}
+I am using a SQL relational database. 
 
-{Describe the structure (tables) of the relational database that you created.}
+My table is created hold basic information about an item. The columns are number (primary key), make, model, name, purchased date, and assigned branch. The next table would be monitors and would include that same information.
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+I used VS Code to write the program and test it. 
 
-{Describe the programming language that you used and any libraries.}
+I wrote the program in Python and used the python library SQLite3 to use SQL commands. 
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
+This is a list of websites that I found helpful and referenced frequently. 
 
 - [SQLite Tutorial](https://www.sqlitetutorial.net/)
 - [Python](https://docs.python.org/3.8/library/sqlite3.html)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
+This is a list of things that I would like to improve, add, or fix in the future. 
 
-- Item 1
-- Item 2
-- Item 3
+- Create an interface that a user could search, modify, etc. to the database
+- Create a second table that I could then perform joins, unions, etc. with
+- Fix the layout so that I don't have to comment so much out while I am testing/debugging code
